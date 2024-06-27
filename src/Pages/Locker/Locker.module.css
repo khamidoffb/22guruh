@@ -1,0 +1,32 @@
+.block{
+    width: 400px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px auto;
+}
+
+.block h2{
+    background-color: #fff;
+    box-shadow: inset 0px 0px 5px gray;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.btns button{
+    font-size: 24px;
+    
+}
+.btns button:active{
+    background-color: #919191;    
+}
+
+
